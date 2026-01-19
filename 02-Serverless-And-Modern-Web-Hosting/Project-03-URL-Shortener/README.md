@@ -1,4 +1,4 @@
-## Project 10: Serverless URL Shortener on AWS
+## Project 03: Serverless URL Shortener on AWS
 
 This project demonstrates building a fully serverless URL shortener using AWS Lambda, Amazon API Gateway, and Amazon DynamoDB.
 
