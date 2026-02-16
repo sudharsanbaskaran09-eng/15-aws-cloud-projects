@@ -1,0 +1,23 @@
+type Poll {
+  id: ID!
+  question: String!
+  options: [String!]!
+}
+
+type Query {
+  getPoll(id: ID!): Poll
+  listPolls: [Poll]
+}
+
+type Mutation {
+  createPoll(
+    id: ID!
+    question: String!
+    options: [String!]!
+  ): Poll
+}
+
+schema {
+  query: Query
+  mutation: Mutation
+}
