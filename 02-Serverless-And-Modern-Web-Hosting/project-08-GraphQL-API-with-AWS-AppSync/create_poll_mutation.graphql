@@ -1,0 +1,11 @@
+mutation {
+  createPoll(
+    id: "poll1"
+    question: "Which cloud platform do you prefer?"
+    options: ["AWS", "Azure", "GCP"]
+  ) {
+    id
+    question
+    options
+  }
+}
